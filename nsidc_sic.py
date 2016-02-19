@@ -39,7 +39,7 @@ def get_data_asi(filename):
 
 
 
-def plot_map_asi(i, ZZ, date, show=True):
+def plot_map_asi(ZZ, date, show=True, contours=True):
 	plt.clf()
 	m = Basemap(projection='spstere',boundinglat = -60, lon_0=-180,resolution='h')
 	m.drawcoastlines(linewidth=3, linestyle = '-', color='w')
@@ -56,7 +56,8 @@ def plot_map_asi(i, ZZ, date, show=True):
 		lons = datagroup["longitude"][:]
 	mlons, mlats = m(lons, lats)
 	XX, YY = mlons, mlats
-	plt.contour(XX,YY,ZZ,alpha=1, cmap = pylab.cm.jet)
+	if contours:
+		plt.contour(XX,YY,ZZ,alpha=1, cmap = pylab.cm.jet)
 	plt.pcolormesh(XX,YY,ZZ, cmap = pylab.cm.YlGnBu, alpha=1)
 	plt.tight_layout( rect=[0,0.06,1,1])
 	cbar = plt.colorbar(orientation="horizontal", fraction=.03, aspect=46, pad=.07)
