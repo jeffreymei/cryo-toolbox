@@ -8,6 +8,6 @@ It assumes that the Basemap module has already been installed; if this is not th
 demo script for NSIDC:
 os.chdir("/directory/with/nsidc/files")
 data, date = get_data_nsidc("filename")
-plot_map_nsidc(data, date, show=True, contours=True)
+plot_map_nsidc(data, date, show=True)
 
-This will generate a colour plot of SIC with contours for that file.
+
