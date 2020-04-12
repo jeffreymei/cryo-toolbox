@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GranuleMetaDataFile SYSTEM "http://ecsinfo.gsfc.nasa.gov/ECSInfo/ecsmetadata/dtds/DPL/ECS/ScienceGranuleMetadata.dtd">
+
+<GranuleMetaDataFile>
+    <DTDVersion>1.0</DTDVersion>
+    <DataCenterId>NSC</DataCenterId>
+    <GranuleURMetaData>
+        <GranuleUR>SC:IODMS1B.001:41890731</GranuleUR>
+        <DbID>41890731</DbID>
+        <InsertTime>2012-09-04 09:37:50.296</InsertTime>
+        <LastUpdate>2012-09-04 09:37:50.296</LastUpdate>
+        <CollectionMetaData>
+            <ShortName>IODMS1B</ShortName>
+            <VersionID>1</VersionID>
+        </CollectionMetaData>
+        <DataFiles>
+            <DataFileContainer>
+                <DistributedFileName>DMS_1100108_10340_20101030_19265327.tif</DistributedFileName>
+                <FileSize>29055959</FileSize>
+                <ChecksumType>MD5</ChecksumType>
+                <Checksum>a147182707645d37e289d1fb5a7b5951</Checksum>
+                <ChecksumOrigin>DataProvider</ChecksumOrigin>
+            </DataFileContainer>
+        </DataFiles>
+        <ECSDataGranule>
+            <SizeMBECSDataGranule>27.7099</SizeMBECSDataGranule>
+            <LocalGranuleID>DMS_1100108_10340_20101030_19265327.tif</LocalGranuleID>
+            <ProductionDateTime>2012-09-01 01:56:04.000</ProductionDateTime>
+            <LocalVersionID>1</LocalVersionID>
+        </ECSDataGranule>
+        <SingleDateTime>
+            <TimeofDay>19:26:53.2700000Z</TimeofDay>
+            <CalendarDate>2010-10-30</CalendarDate>
+        </SingleDateTime>
+        <SpatialDomainContainer>
+            <HorizontalSpatialDomainContainer>
+                <GPolygon>
+                    <Boundary>
+                        <Point>
+                            <PointLongitude>-77.191630</PointLongitude>
+                            <PointLatitude>-70.899849</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-77.187623</PointLongitude>
+                            <PointLatitude>-70.905619</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-77.202386</PointLongitude>
+                            <PointLatitude>-70.906717</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-77.206389</PointLongitude>
+                            <PointLatitude>-70.900947</PointLatitude>
+                        </Point>
+                    </Boundary>
+                </GPolygon>
+            </HorizontalSpatialDomainContainer>
+        </SpatialDomainContainer>
+        <Platform>
+            <PlatformShortName>DC-8</PlatformShortName>
+            <Instrument>
+                <InstrumentShortName>DMS</InstrumentShortName>
+                <Sensor>
+                    <SensorShortName>DMS</SensorShortName>
+                </Sensor>
+            </Instrument>
+        </Platform>
+        <Campaign>
+            <CampaignShortName>2010_AN_NASA</CampaignShortName>
+        </Campaign>
+        <PSAs>
+            <PSA>
+                <PSAName>AircraftID</PSAName>
+                <PSAValue>N817NA</PSAValue>
+            </PSA>
+            <PSA>
+                <PSAName>ThemeID</PSAName>
+                <PSAValue>2010_AN_NASA</PSAValue>
+            </PSA>
+        </PSAs>
+        <BrowseProduct>
+            <BrowseGranuleId>UR:10:DsShESDTUR:UR:15:DsShSciServerUR:13:[NSC:DSSDSRV]:22:BR:Browse.001:41894445</BrowseGranuleId>
+        </BrowseProduct>
+    </GranuleURMetaData>
+</GranuleMetaDataFile>
+
+
+

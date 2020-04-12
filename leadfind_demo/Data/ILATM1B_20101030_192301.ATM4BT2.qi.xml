@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GranuleMetaDataFile SYSTEM "http://ecsinfo.gsfc.nasa.gov/ECSInfo/ecsmetadata/dtds/DPL/ECS/ScienceGranuleMetadata.dtd">
+
+<GranuleMetaDataFile>
+    <DTDVersion>1.0</DTDVersion>
+    <DataCenterId>NSC</DataCenterId>
+    <GranuleURMetaData>
+        <GranuleUR>SC:ILATM1B.001:46737781</GranuleUR>
+        <DbID>46737781</DbID>
+        <InsertTime>2013-01-31 09:36:44.406</InsertTime>
+        <LastUpdate>2013-01-31 09:36:44.406</LastUpdate>
+        <CollectionMetaData>
+            <ShortName>ILATM1B</ShortName>
+            <VersionID>1</VersionID>
+        </CollectionMetaData>
+        <DataFiles>
+            <DataFileContainer>
+                <DistributedFileName>ILATM1B_20101030_192301.ATM4BT2.qi</DistributedFileName>
+                <FileSize>54438144</FileSize>
+                <ChecksumType>MD5</ChecksumType>
+                <Checksum>9a69f90d45899ca29b5b77605e1d9914</Checksum>
+                <ChecksumOrigin>DPLIngst</ChecksumOrigin>
+            </DataFileContainer>
+        </DataFiles>
+        <ECSDataGranule>
+            <SizeMBECSDataGranule>51.9163</SizeMBECSDataGranule>
+            <LocalGranuleID>ILATM1B_20101030_192301.ATM4BT2.qi</LocalGranuleID>
+            <ProductionDateTime>2012-12-27 11:15:27.000</ProductionDateTime>
+            <LocalVersionID>1</LocalVersionID>
+        </ECSDataGranule>
+        <RangeDateTime>
+            <RangeEndingTime>19:27:09.999000</RangeEndingTime>
+            <RangeEndingDate>2010-10-30</RangeEndingDate>
+            <RangeBeginningTime>19:23:17.001000</RangeBeginningTime>
+            <RangeBeginningDate>2010-10-30</RangeBeginningDate>
+        </RangeDateTime>
+        <SpatialDomainContainer>
+            <HorizontalSpatialDomainContainer>
+                <GPolygon>
+                    <Boundary>
+                        <Point>
+                            <PointLongitude>-77.192190</PointLongitude>
+                            <PointLatitude>-70.879550</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-77.174690</PointLongitude>
+                            <PointLatitude>-70.879550</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-77.174690</PointLongitude>
+                            <PointLatitude>-70.887600</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-77.395010</PointLongitude>
+                            <PointLatitude>-71.202700</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-77.409190</PointLongitude>
+                            <PointLatitude>-71.202700</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-77.409190</PointLongitude>
+                            <PointLatitude>-71.190050</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-77.195690</PointLongitude>
+                            <PointLatitude>-70.884150</PointLatitude>
+                        </Point>
+                    </Boundary>
+                </GPolygon>
+            </HorizontalSpatialDomainContainer>
+        </SpatialDomainContainer>
+        <Platform>
+            <PlatformShortName>DC-8</PlatformShortName>
+            <Instrument>
+                <InstrumentShortName>ATM</InstrumentShortName>
+                <Sensor>
+                    <SensorShortName>ATM</SensorShortName>
+                </Sensor>
+            </Instrument>
+        </Platform>
+        <Campaign>
+            <CampaignShortName>2010_AN_NASA</CampaignShortName>
+        </Campaign>
+        <PSAs>
+            <PSA>
+                <PSAName>AircraftID</PSAName>
+                <PSAValue>N817NA</PSAValue>
+            </PSA>
+            <PSA>
+                <PSAName>ThemeID</PSAName>
+                <PSAValue>2010_AN_NASA</PSAValue>
+            </PSA>
+        </PSAs>
+    </GranuleURMetaData>
+</GranuleMetaDataFile>
+
+
