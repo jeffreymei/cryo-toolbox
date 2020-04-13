@@ -1,6 +1,7 @@
 import numpy as np
 import datetime as dt
-import struct, os, commands
+import struct, os
+import subprocess as commands
 from netCDF4 import Dataset
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
@@ -24,7 +25,7 @@ def get_data_nsidc(filename):
 		nsidc = np.array(contents).reshape((332,316))
 		nsidcdata = np.rot90(nsidc, 2)/10.
 	else:
-		print "please cd into the directory of the file. files should start with either bt_ or nt_"
+		print("please cd into the directory of the file. files should start with either bt_ or nt_")
 	return nsidcdata, date
 
 def get_data_asi(filename):
@@ -32,7 +33,7 @@ def get_data_asi(filename):
 	time = datagroup["time"][:][0]
 	zz = datagroup["sea_ice_area_fraction"][0]
 	lands = datagroup["land"][:]
-	date1901 = dt.datetime(1900,01,01,0,0,0)
+	date1901 = dt.datetime(1900,1,1,0,0,0)
 	hours = dt.timedelta(0,0,0,0,0,time)
 	realdate = (date1901+hours).date()
 	return zz, realdate
@@ -109,5 +110,5 @@ def plot_map_nsidc(ZZ, date, show=True, contours=True):
 	return
 
 if __name__ == '__main__':
-	print "note that the plot_map_i function is specifically for the south pole"
+	print("note that the plot_map_i function is specifically for the south pole")
 	pass
